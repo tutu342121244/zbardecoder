@@ -1,0 +1,176 @@
+apply plugin: 'maven'
+apply plugin: 'maven-publish'
+
+def GROUP_ID = "com.lite.lanxin"
+def ARTIFACT_ID = project.getName().toLowerCase()
+def MAVEN_URL = "https://af-biz.qianxin-inc.cn/artifactory/com.lite.lanxin/"
+
+def getVersion() {
+    String baseVersion = '1.0.'
+    if (!project.hasProperty('BUILD_NUMBER')) {
+        return baseVersion + "0"
+    }
+    return baseVersion + project.property('BUILD_NUMBER')
+}
+
+def getUserName() {
+    if (!project.hasProperty("MAVEN_USER_NAME")) {
+        return ""
+    }
+
+    return project.property("MAVEN_USER_NAME")
+}
+
+def getPassword() {
+    if (!project.hasProperty("MAVEN_PASSWORD")) {
+        return ""
+    }
+
+    return project.property("MAVEN_PASSWORD")
+}
+
+def getCommitId() {
+    return System.getenv("GIT_COMMIT")
+}
+
+def getCommitUrl() {
+    return System.getenv("GIT_URL")
+}
+
+def getUserName2() {
+    if (!project.hasProperty("MAVEN_USER_NAME2")) {
+        return ""
+    }
+
+    return project.property("MAVEN_USER_NAME2")
+}
+
+def getPassword2() {
+    if (!project.hasProperty("MAVEN_PASSWORD2")) {
+        return ""
+    }
+
+    return project.property("MAVEN_PASSWORD2")
+}
+
+def user2 = getUserName2()
+def pwd2 = getPassword2()
+
+def v = getVersion()
+def user = getUserName()
+def pwd = getPassword()
+
+def giturl = getCommitUrl()
+def commitId = getCommitId()
+
+ext._versionName = v
+
+task generateSourceJar(type: Jar) {
+    from android.sourceSets.main.java.srcDirs
+    classifier "sources"
+}
+
+task generateAPIJar(type: Jar) {
+    mustRunAfter 'assembleRelease'
+    //设置class文件的目录 和 jar包 的文件名
+    archiveName = ARTIFACT_ID + '-api' + ".jar"
+
+    //libraryVariants.
+    from("$buildDir/intermediates/javac/release/compileReleaseJavaWithJavac/classes")
+    //需要打包的类
+    include('com/dtr/zbar/build/ZBarDecoder.class')
+
+//    from("$buildDir/intermediates/ndkBuild/release/obj/local")
+//    include('armeabi-v7a/libZBarDecoder.so')
+
+
+}
+
+publishing {
+    publications {
+        SDK(MavenPublication) {
+            groupId GROUP_ID
+            artifactId ARTIFACT_ID
+            version = "${v}"
+
+            artifact(generateSourceJar)
+            artifact("$buildDir/outputs/aar/${project.getName()}-release.aar")
+
+            pom.withXml {
+                asNode().appendNode('url',"${giturl};${commitId}")
+
+                def dependenciesNode = asNode().appendNode('dependencies')
+                def configurationNames = ['compile', 'api', 'implementation']
+
+                configurationNames.each { configurationName ->
+                    configurations[configurationName].allDependencies.each {
+                        if (it.group != null && it.name != null) {
+                            def dependencyNode = dependenciesNode.appendNode('dependency')
+                            dependencyNode.appendNode('groupId', it.group)
+                            dependencyNode.appendNode('artifactId', it.name)
+                            dependencyNode.appendNode('version', it.version)
+
+                            if (it.excludeRules.size() > 0) {
+                                def exclusionsNode = dependencyNode.appendNode('exclusions')
+                                it.excludeRules.each { rule ->
+                                    def exclusionNode = exclusionsNode.appendNode('exclusion')
+                                    exclusionNode.appendNode('groupId', rule.group)
+                                    exclusionNode.appendNode('artifactId', rule.module)
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        API(MavenPublication){
+            groupId GROUP_ID
+            artifactId ARTIFACT_ID + "-api"
+            version = "${v}"
+
+            artifact(generateAPIJar)
+        }
+
+    }
+    repositories {
+        maven {
+            credentials {
+                username = "${user2}"
+                password = "${pwd2}"
+            }
+
+            url MAVEN_URL
+        }
+    }
+}
+
+tasks.whenTaskAdded { task ->
+    if (task.name == 'publishSDKPublicationToMavenRepository') {
+        task.dependsOn 'assembleRelease'
+    }
+    if (task.name == 'publishAPIPublicationToMavenRepository') {
+        task.dependsOn 'assembleRelease'
+    }
+
+    if (task.name == 'publishSDKPublicationToMavenRepository') {
+        task.dependsOn 'assembleRelease'
+    }
+
+    if (task.name == 'publishAPIPublicationToMavenRepository') {
+        task.dependsOn 'assembleRelease'
+    }
+
+    if (task.name == 'generatePomFileForAarPublication') {
+        task.dependsOn 'assembleRelease'
+    }
+
+    if (task.name == 'generatePomFileForAPIPublication') {
+        task.dependsOn 'assembleRelease'
+    }
+
+    if (task.name == 'generatePomFileForSDKPublication') {
+        task.dependsOn 'assembleRelease'
+    }
+}
+

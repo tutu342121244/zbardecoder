@@ -1,0 +1,174 @@
+{
+  "buildFiles": [
+    "E:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\Android.mk",
+    "E:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "D:\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dE:/lxproject/zbardecoder/zbardecoder/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dE:\\lxproject\\zbardecoder\\zbardecoder\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "libraries": {
+    "ZBarDecoder-debug-x86_64": {
+      "buildCommand": "D:\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dE:/lxproject/zbardecoder/zbardecoder/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dE:\\lxproject\\zbardecoder\\zbardecoder\\build\\intermediates\\ndkBuild\\debug\\lib E:/lxproject/zbardecoder/zbardecoder/build/intermediates/ndkBuild/debug/obj/local/x86_64/libZBarDecoder.so",
+      "toolchain": "toolchain-x86_64",
+      "abi": "x86_64",
+      "artifactName": "ZBarDecoder",
+      "files": [
+        {
+          "src": "E:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\com_dtr_zbar_build_ZBarDecoder.c",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/zbar -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "E:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\libiconv-1.15\\lib\\iconv.c",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/libcharset -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/libcharset/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni -DANDROID -Wno-multichar -D_ANDROID -DLIBDIR\u003d\"c\" -DBUILDING_LIBICONV -DBUILDING_LIBCHARSET -DIN_LIBRARY -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "E:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\libiconv-1.15\\lib\\relocatable.c",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/libcharset -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/libcharset/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni -DANDROID -Wno-multichar -D_ANDROID -DLIBDIR\u003d\"c\" -DBUILDING_LIBICONV -DBUILDING_LIBCHARSET -DIN_LIBRARY -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "E:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\libiconv-1.15\\libcharset\\lib\\localcharset.c",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/libcharset -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/libcharset/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni -DANDROID -Wno-multichar -D_ANDROID -DLIBDIR\u003d\"c\" -DBUILDING_LIBICONV -DBUILDING_LIBCHARSET -DIN_LIBRARY -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "E:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\zbar\\config.c",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/zbar -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "E:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\zbar\\convert.c",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/zbar -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "E:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\zbar\\decoder.c",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/zbar -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "E:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\zbar\\decoder\\codabar.c",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/zbar -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "E:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\zbar\\decoder\\code128.c",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/zbar -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "E:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\zbar\\decoder\\code39.c",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/zbar -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "E:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\zbar\\decoder\\code93.c",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/zbar -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "E:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\zbar\\decoder\\databar.c",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/zbar -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "E:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\zbar\\decoder\\ean.c",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/zbar -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "E:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\zbar\\decoder\\i25.c",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/zbar -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "E:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\zbar\\decoder\\qr_finder.c",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/zbar -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "E:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\zbar\\error.c",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/zbar -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "E:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\zbar\\image.c",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/zbar -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "E:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\zbar\\img_scanner.c",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/zbar -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "E:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\zbar\\qrcode\\bch15_5.c",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/zbar -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "E:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\zbar\\qrcode\\binarize.c",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/zbar -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "E:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\zbar\\qrcode\\isaac.c",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/zbar -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "E:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\zbar\\qrcode\\qrdec.c",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/zbar -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "E:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\zbar\\qrcode\\qrdectxt.c",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/zbar -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "E:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\zbar\\qrcode\\rs.c",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/zbar -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "E:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\zbar\\qrcode\\util.c",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/zbar -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "E:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\zbar\\refcnt.c",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/zbar -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "E:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\zbar\\scanner.c",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/zbar -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "E:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\zbar\\symbol.c",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/zbar -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "E:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\zbar\\video.c",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/zbar -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "E:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\zbar\\video\\null.c",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/zbar -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "E:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\zbarjni.c",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/zbar -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni -DANDROID -Wformat -Werror\u003dformat-security"
+        }
+      ],
+      "output": "E:\\lxproject\\zbardecoder\\zbardecoder\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86_64\\libZBarDecoder.so"
+    },
+    "iconv-debug-x86_64": {
+      "buildCommand": "D:\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dE:/lxproject/zbardecoder/zbardecoder/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dE:\\lxproject\\zbardecoder\\zbardecoder\\build\\intermediates\\ndkBuild\\debug\\lib E:/lxproject/zbardecoder/zbardecoder/build/intermediates/ndkBuild/debug/obj/local/x86_64/libiconv.a",
+      "toolchain": "toolchain-x86_64",
+      "abi": "x86_64",
+      "artifactName": "iconv",
+      "files": [
+        {
+          "src": "E:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\libiconv-1.15\\lib\\iconv.c",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/libcharset -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/libcharset/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni -DANDROID -Wno-multichar -D_ANDROID -DLIBDIR\u003d\"c\" -DBUILDING_LIBICONV -DBUILDING_LIBCHARSET -DIN_LIBRARY -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "E:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\libiconv-1.15\\lib\\relocatable.c",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/libcharset -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/libcharset/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni -DANDROID -Wno-multichar -D_ANDROID -DLIBDIR\u003d\"c\" -DBUILDING_LIBICONV -DBUILDING_LIBCHARSET -DIN_LIBRARY -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "E:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\libiconv-1.15\\libcharset\\lib\\localcharset.c",
+          "flags": "-target x86_64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/Android/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fPIC -O0 -UNDEBUG -fno-limit-debug-info -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/libcharset -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni/libiconv-1.15/libcharset/include -IE:/lxproject/zbardecoder/zbardecoder/src/main/jni -DANDROID -Wno-multichar -D_ANDROID -DLIBDIR\u003d\"c\" -DBUILDING_LIBICONV -DBUILDING_LIBCHARSET -DIN_LIBRARY -Wformat -Werror\u003dformat-security"
+        }
+      ],
+      "output": "E:\\lxproject\\zbardecoder\\zbardecoder\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\x86_64\\libiconv.a"
+    }
+  },
+  "toolchains": {
+    "toolchain-x86_64": {
+      "cCompilerExecutable": "D:\\Android\\sdk\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

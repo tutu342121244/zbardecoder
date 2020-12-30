@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ZBarSDK</string>
+    <string name="camera_failure">相机连接失败</string>
+    <string name="camera_hint">您的相机可能被其它应用占用，请检查后再使用。</string>
+    <string name="ok">好的</string>
+</resources>

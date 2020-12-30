@@ -1,0 +1,33 @@
+
+buildscript {
+    repositories {
+        maven { url 'https://af-biz.qianxin-inc.cn/artifactory/com.lite.lanxin/' }
+        maven { url 'https://af-biz.qianxin-inc.cn/artifactory/list/android-public/' }
+        google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.0'
+    }
+}
+
+allprojects {
+    repositories {
+        maven { url 'https://af-biz.qianxin-inc.cn/artifactory/com.lite.lanxin/' }
+        maven { url 'https://af-biz.qianxin-inc.cn/artifactory/list/android-public/' }
+        google()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext {
+    minSdkVersion = 16
+    targetSdkVersion = 26
+    compileSdkVersion = 26
+    buildToolsVersion = "28.0.2"
+    supportLibraryVersion = '27.1.1'
+    architectureVersion = "1.1.0"
+    junitVersion = '4.12'
+}

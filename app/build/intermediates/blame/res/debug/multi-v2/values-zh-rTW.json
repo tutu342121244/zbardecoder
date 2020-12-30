@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\lxproject\\zbardecoder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rTW\\values-zh-rTW.xml",
+            "map": [
+                {
+                    "source": "D:\\Android\\Android_Studio\\gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\51069eaa57453f80d664ea5430ca7598\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,150,257,380,473,573,655,752,860,936,1012,1090,1186,1282,1377,1474,1569,1669,1782,1876,1954",
+                        "endColumns": "94,106,122,92,99,81,96,107,75,75,77,95,95,94,96,94,99,112,93,77,100",
+                        "endOffsets": "145,252,375,468,568,650,747,855,931,1007,1085,1181,1277,1372,1469,1564,1664,1777,1871,1949,2050"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,25,26",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,150,257,380,473,573,655,752,860,936,1012,1090,1186,1282,1377,1474,1569,1669,1782,2068,2146",
+                        "endColumns": "94,106,122,92,99,81,96,107,75,75,77,95,95,94,96,94,99,112,93,77,100",
+                        "endOffsets": "145,252,375,468,568,650,747,855,931,1007,1085,1181,1277,1372,1469,1564,1664,1777,1871,2141,2242"
+                    }
+                },
+                {
+                    "source": "E:\\lxproject\\zbardecoder\\app\\src\\main\\res\\values-zh-RTW\\strings.xml",
+                    "from": {
+                        "startLines": "17,19,20,21",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "641,689,740,804",
+                        "endColumns": "44,49,62,33",
+                        "endOffsets": "681,734,798,833"
+                    },
+                    "to": {
+                        "startLines": "21,22,23,24",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "1876,1921,1971,2034",
+                        "endColumns": "44,49,62,33",
+                        "endOffsets": "1916,1966,2029,2063"
+                    }
+                }
+            ]
+        }
+    ]
+}

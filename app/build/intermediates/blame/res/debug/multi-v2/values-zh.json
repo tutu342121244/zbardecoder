@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\lxproject\\zbardecoder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
+            "map": [
+                {
+                    "source": "E:\\lxproject\\zbardecoder\\app\\src\\main\\res\\values-zh\\strings.xml",
+                    "from": {
+                        "startLines": "17,19,20,21",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "641,689,740,804",
+                        "endColumns": "44,49,62,33",
+                        "endOffsets": "681,734,798,833"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,100,150,213",
+                        "endColumns": "44,49,62,33",
+                        "endOffsets": "95,145,208,242"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\lxproject\zbardecoder\zbardecoder\src\main\AndroidManifest.xml:17:1-50
+INJECTED from E:\lxproject\zbardecoder\zbardecoder\src\main\AndroidManifest.xml:17:1-50
+INJECTED from E:\lxproject\zbardecoder\zbardecoder\src\main\AndroidManifest.xml:17:1-50
+	package
+		ADDED from E:\lxproject\zbardecoder\zbardecoder\src\main\AndroidManifest.xml:17:11-48
+		INJECTED from E:\lxproject\zbardecoder\zbardecoder\src\main\AndroidManifest.xml
+		INJECTED from E:\lxproject\zbardecoder\zbardecoder\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\lxproject\zbardecoder\zbardecoder\src\main\AndroidManifest.xml:17:1-50
+uses-sdk
+INJECTED from E:\lxproject\zbardecoder\zbardecoder\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\lxproject\zbardecoder\zbardecoder\src\main\AndroidManifest.xml
+INJECTED from E:\lxproject\zbardecoder\zbardecoder\src\main\AndroidManifest.xml
+INJECTED from E:\lxproject\zbardecoder\zbardecoder\src\main\AndroidManifest.xml
+INJECTED from E:\lxproject\zbardecoder\zbardecoder\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\lxproject\zbardecoder\zbardecoder\src\main\AndroidManifest.xml
+		ADDED from E:\lxproject\zbardecoder\zbardecoder\src\main\AndroidManifest.xml
+		INJECTED from E:\lxproject\zbardecoder\zbardecoder\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\lxproject\zbardecoder\zbardecoder\src\main\AndroidManifest.xml
+		ADDED from E:\lxproject\zbardecoder\zbardecoder\src\main\AndroidManifest.xml
+		INJECTED from E:\lxproject\zbardecoder\zbardecoder\src\main\AndroidManifest.xml

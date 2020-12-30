@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="zbardecoder/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zbardecoder.iml" filepath="$PROJECT_DIR$/.idea/modules/zbardecoder.iml" group="zbardecoder" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zbardecoder/zbardecoder-zbardecoder.iml" filepath="$PROJECT_DIR$/.idea/modules/zbardecoder/zbardecoder-zbardecoder.iml" group="zbardecoder/zbardecoder" />
+    </modules>
+  </component>
+</project>
