@@ -1,8 +1,6 @@
 
 buildscript {
     repositories {
-        maven { url 'https://af-biz.qianxin-inc.cn/artifactory/com.lite.lanxin/' }
-        maven { url 'https://af-biz.qianxin-inc.cn/artifactory/list/android-public/' }
         google()
     }
     dependencies {
@@ -12,8 +10,6 @@ buildscript {
 
 allprojects {
     repositories {
-        maven { url 'https://af-biz.qianxin-inc.cn/artifactory/com.lite.lanxin/' }
-        maven { url 'https://af-biz.qianxin-inc.cn/artifactory/list/android-public/' }
         google()
     }
 }

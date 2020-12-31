@@ -1,23 +1,23 @@
 {
   "buildFiles": [
-    "E:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\Android.mk",
-    "E:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\Application.mk"
+    "E:\\zbardecoder\\zbardecoder\\src\\main\\jni\\Android.mk",
+    "E:\\zbardecoder\\zbardecoder\\src\\main\\jni\\Application.mk"
   ],
   "cleanCommands": [
-    "D:\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dE:/lxproject/zbardecoder/zbardecoder/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dE:\\lxproject\\zbardecoder\\zbardecoder\\build\\intermediates\\ndkBuild\\release\\lib clean"
+    "D:\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\zbardecoder\\zbardecoder\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\zbardecoder\\zbardecoder\\src\\main\\jni\\Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dE:/zbardecoder/zbardecoder/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dE:\\zbardecoder\\zbardecoder\\build\\intermediates\\ndkBuild\\release\\lib clean"
   ],
   "libraries": {
     "ZBarDecoder-release-x86_64": {
       "artifactName": "ZBarDecoder",
-      "buildCommand": "D:\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dE:/lxproject/zbardecoder/zbardecoder/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dE:\\lxproject\\zbardecoder\\zbardecoder\\build\\intermediates\\ndkBuild\\release\\lib E:/lxproject/zbardecoder/zbardecoder/build/intermediates/ndkBuild/release/obj/local/x86_64/libZBarDecoder.so",
+      "buildCommand": "D:\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\zbardecoder\\zbardecoder\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\zbardecoder\\zbardecoder\\src\\main\\jni\\Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dE:/zbardecoder/zbardecoder/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dE:\\zbardecoder\\zbardecoder\\build\\intermediates\\ndkBuild\\release\\lib E:/zbardecoder/zbardecoder/build/intermediates/ndkBuild/release/obj/local/x86_64/libZBarDecoder.so",
       "abi": "x86_64",
-      "output": "E:\\lxproject\\zbardecoder\\zbardecoder\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86_64\\libZBarDecoder.so"
+      "output": "E:\\zbardecoder\\zbardecoder\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86_64\\libZBarDecoder.so"
     },
     "iconv-release-x86_64": {
       "artifactName": "iconv",
-      "buildCommand": "D:\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\lxproject\\zbardecoder\\zbardecoder\\src\\main\\jni\\Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dE:/lxproject/zbardecoder/zbardecoder/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dE:\\lxproject\\zbardecoder\\zbardecoder\\build\\intermediates\\ndkBuild\\release\\lib E:/lxproject/zbardecoder/zbardecoder/build/intermediates/ndkBuild/release/obj/local/x86_64/libiconv.a",
+      "buildCommand": "D:\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\zbardecoder\\zbardecoder\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\zbardecoder\\zbardecoder\\src\\main\\jni\\Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dE:/zbardecoder/zbardecoder/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dE:\\zbardecoder\\zbardecoder\\build\\intermediates\\ndkBuild\\release\\lib E:/zbardecoder/zbardecoder/build/intermediates/ndkBuild/release/obj/local/x86_64/libiconv.a",
       "abi": "x86_64",
-      "output": "E:\\lxproject\\zbardecoder\\zbardecoder\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86_64\\libiconv.a"
+      "output": "E:\\zbardecoder\\zbardecoder\\build\\intermediates\\ndkBuild\\release\\obj\\local\\x86_64\\libiconv.a"
     }
   }
 }

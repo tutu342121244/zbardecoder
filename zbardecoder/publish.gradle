@@ -3,7 +3,7 @@ apply plugin: 'maven-publish'
 
 def GROUP_ID = "com.lite.lanxin"
 def ARTIFACT_ID = project.getName().toLowerCase()
-def MAVEN_URL = "https://af-biz.qianxin-inc.cn/artifactory/com.lite.lanxin/"
+def MAVEN_URL = ""// 私有maven地址
 
 def getVersion() {
     String baseVersion = '1.0.'
